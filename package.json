@@ -1,0 +1,35 @@
+{
+  "name": "esbg",
+  "version": "1.0.1",
+  "description": "library to process elasticsearch data in background",
+  "main": "esbg.js",
+  "scripts": {
+    "test": "cd test && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marsgpl/npm-esbg.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "background",
+    "utils",
+    "utility"
+  ],
+  "author": "marsgpl <marsgpl@gmail.com> (https://eki.one)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marsgpl/npm-esbg/issues"
+  },
+  "homepage": "https://github.com/marsgpl/npm-esbg#readme",
+  "readme": "README.md",
+  "files": [
+    "src",
+    "test",
+    "esbg.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "elasticsearch": "14.1.0"
+  }
+}
