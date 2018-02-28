@@ -6,8 +6,7 @@ const ESBG = require("../esbg")
 
 const conf = {
     connection: {
-        host: "etbot.connect.club",
-        path: "/elastic/",
+        host: "https://etbot.connect.club/elastic/",
         apiVersion: "5.5",
     },
     pingTimeout: 1000,
